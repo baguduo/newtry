@@ -17,6 +17,7 @@ public class InputProductController implements Controller {
 
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        int a = 9;
         //logger.info("InputProductController called");
         return new ModelAndView("hello");
     }
